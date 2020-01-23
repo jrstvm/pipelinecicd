@@ -6,7 +6,6 @@ public class TaskImpl implements Task {
 
     public void execute() {
         System.out.println("Task execution is begin...");
-        //....
         complete = true;
         result = "READY!";
         System.out.println("Task is complete...");
