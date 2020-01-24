@@ -6,4 +6,4 @@ else
     TAG="$TRAVIS_BRANCH"
 fi
 docker build -f Dockerfile -t rostovchanin/jrstvm:$TAG .
-docker push rostovchanin/jrstvm:$TAG
+docker push rostovchanin/jrstvm
