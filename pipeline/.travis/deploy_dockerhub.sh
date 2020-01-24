@@ -5,5 +5,5 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
 else
     TAG="$TRAVIS_BRANCH"
 fi
-docker build -f Dockerfile -t jrstvm:$TAG .
-docker push jrstvm
+docker build -f Dockerfile -t rostovchanin/jrstvm:$TAG .
+docker push rostovchanin/jrstvm:$TAG
